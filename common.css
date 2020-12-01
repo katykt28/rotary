@@ -380,6 +380,14 @@
         display: block;
     }
 }
+.forSM {
+    display: none;
+}
+@media (max-width: 449.98px) {
+    .forSM {
+        display: block;
+    }
+}
 .fw-b {
     font-weight: bold;
 }
