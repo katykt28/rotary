@@ -415,6 +415,13 @@ h3 {
   text-indent: -3.5rem;
 }
 
+@media screen and (min-width: 897px) {
+  .home .sec03 ol li:first-of-type dt {
+    margin-left: 4rem;
+    text-indent: -4.9rem;
+  }
+}
+
 .home .sec03 ol li:first-of-type dt:before {
   content: "1";
   color: #002B40;
@@ -444,6 +451,13 @@ h3 {
   margin-bottom: 3vw;
   margin-left: 3rem;
   text-indent: -3.5rem;
+}
+
+@media screen and (min-width: 897px) {
+  .home .sec03 ol li:last-of-type dt {
+    margin-left: 4rem;
+    text-indent: -4.9rem;
+  }
 }
 
 .home .sec03 ol li:last-of-type dt:before {
