@@ -282,6 +282,13 @@ h3 {
 
 .home .sec02 div {
   padding: 5vw 3vw 2vw 3vw;
+  width: 90%;
+}
+
+@media screen and (min-width: 897px) {
+  .home .sec02 div {
+    width: 100%;
+  }
 }
 
 .home .sec02 div h2 {
@@ -301,6 +308,13 @@ h3 {
 
 .home .sec02 div p:last-child {
   color: #D60000;
+  font-size: 85%;
+}
+
+@media (max-width: 449.98px) {
+  .home .sec02 div p:last-child {
+    font-size: 64%;
+  }
 }
 
 .home .sec02 div p:last-child:first-letter {
